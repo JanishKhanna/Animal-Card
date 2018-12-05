@@ -1,0 +1,49 @@
+.labra{
+    width: 300px;
+}
+p{
+    width: 280px;
+    text-align: left;
+}
+.smallbox{
+    width: 278px;
+    border: 1px solid #ce116f;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: solid double;
+    margin-top: 10px;
+}
+.bigbox{
+    width: 300px;
+    border: 1px solid #00259e;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 0px lightgray;
+    background-image: url("paws.jpg");    
+}
+.left{
+    margin-left: 55px;
+}
+ul{
+    list-style: none;
+    margin-left: -40px;
+}
+#images{
+    background-image: url("dog.jpg");
+    width:298px;
+    height:186px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    border-radius: 50px 20px;
+}
+#images:hover{
+    background-image: url("puppies.jpg");
+    width:298px;
+    height:186px;
+    background-size: cover;
+    border-radius: 50px 20px;
+}
+a{
+    text-decoration-line: underline;
+    color: rgb(196, 3, 3);
+}
